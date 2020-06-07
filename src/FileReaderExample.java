@@ -30,8 +30,8 @@ class MyThread extends Thread
 }
 public class FileReaderExample {
 public static void main(String args[]){
-   MyThread a = new MyThread("C:\\one.txt","Thread 1");
-   MyThread b = new MyThread("C:\\tow.txt","Thread 2");
+   MyThread a = new MyThread("one.txt","Thread 1");
+   MyThread b = new MyThread("two.txt","Thread 2");
       a.start();
        b.start();
     }
